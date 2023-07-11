@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+    font-size: 62.5%;
+    letter-spacing: 0.4rem;
+    scroll-behavior: smooth;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #333;
+    transition: 0.4s ;
+}
+a:hover{
+    color: #59da09;
+}
+a:active{
+    color: crimson;
+}
+h1,h2{
+    font-size: 6rem;
+    
+
+}
+body{
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.car,.menu{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    background-attachment: fixed;
+}
+.menu{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/london.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+.dubai-car {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/dubai.jpg");
+}
+.tokio-car {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/tokio-yaponiya.jpg");
+}
+.canada-car {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/canada-vancouver.jpg");
+}
+.moskva-car {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/moskva.jpg");
+}
+.new-york-car {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/new-york.jpg");
+}
+.sidney-car {
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/sidney-shahari.jpg");
+}
+.menu li:not(:last-child){
+    margin-bottom: 1.5rem;
+}
